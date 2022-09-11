@@ -79,7 +79,7 @@ button:hover {
   background-color: #78a7c6;
 }
 
-.messageBox {
+.message-box {
   background-color: #ffffff;
   width: 800px;
   height:  150px;
@@ -92,4 +92,8 @@ button:hover {
 
 .bell {
   height: 50%;
+}
+
+.message {
+  font-size: 130%;
 }
