@@ -97,3 +97,40 @@ button:hover {
 .message {
   font-size: 130%;
 }
+
+.favorites {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
+}
+
+.favorites > button {
+  margin-left: 0%;
+  margin-right: 0%;
+  /* visibility: hidden; */
+  /* opacity: 50%; */
+}
+
+.fav-page {
+  background-color: #ffffff;
+  width: 800px;
+  min-height: 200px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-grow: 1; */
+}
+
+.fav-page > .message {
+  font-size: 130%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.hidden {
+  display: none;
+}
