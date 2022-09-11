@@ -2,22 +2,19 @@
 
 ### Abstract: 
   The Self-Care center app allows the user to receive and affirmation or mantra, as well as save this message into a list of favorites. Users can then view the list of favorites on another page of the app.
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
 ### Installation Instructions: 
   The User will simply need to clone the app onto their local machine, navigate into the directory, and run open index.html.
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 <img width="1202" alt="Screen Shot 2022-09-11 at 5 29 19 PM" src="https://user-images.githubusercontent.com/22826695/189553505-b9522212-582c-4f0c-b678-15dcab373905.png">
 ### Context:
   Currently I have finished 3 weeks of the Turing program, and this app took around 2 hours a day over 4 or 5 days to create.
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+
   
 ### Contributors: 
   Zac Walters - https://github.com/zacwalters4
-[//]: <> (Who worked on this application? Link to their GitHubs.)
 
 ### Learning Goals:
   Gain experience building an application that utilizes HTML, CSS and JavaScript
