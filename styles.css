@@ -119,9 +119,9 @@ button:hover {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
+  justify-content: space- around;
   flex-wrap: wrap;
-  /* align-items: center; */
+  align-items: center;
   /* flex-grow: 1; */
 }
 
@@ -129,6 +129,20 @@ button:hover {
   font-size: 130%;
   margin-left: 10%;
   margin-top: 2%;
+}
+
+.fav-page > button {
+  width: 700px;
+  height:  auto;
+  margin: 1%;
+  background-color: #ffffff;
+  /* border-color: #134d71; */
+  color: #000000;
+  /* border-style: solid; */
+}
+
+.fav-page > .header {
+  color: #000000;
 }
 
 .hidden {

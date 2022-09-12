@@ -11,7 +11,7 @@ var favPage = document.querySelector('.fav-page')
 var homeButton = document.querySelector('.home-button')
 
 
-console.log(favPage)
+// console.log(favDisplay)
 console.log(form)
 receiveButton.addEventListener('click', showMessage)
 addFavButton.addEventListener('click', addFavorite)
@@ -77,12 +77,26 @@ function showFavorites() {
   homeButton.classList.remove('hidden')
   // h1.remove()
   for(i = 0; i < favorites.length; i++) {
-    var fav = document.createElement('fav')
-    fav.classList.add('message')
-    fav.innerText = `${i + 1}. ${favorites[i]}`
+    var fav = document.createElement('button')
+    fav.classList.add('message-list')
+    // fav.classList.add('message')
+    fav.innerText = `${favorites[i]}`
+    fav.id = `${i}`
     favPage.appendChild(fav)
+    fav.addEventListener('dblclick', removeFavorite)
+    fav.addEventListener('dblclick',this.remove)
+
   }
 }
+
+function removeFavorite() {
+  console.log(this.id)
+  favorites.splice(this.id, 1)
+  if(favorites.length === 0) {
+    showFavButton.style.opacity = '50%'
+  }
+}
+
 
 function goHome() {
   headerQuestion.classList.remove('hidden')
